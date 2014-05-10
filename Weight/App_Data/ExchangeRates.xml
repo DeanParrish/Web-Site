@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Envelope>
+  <subject>Reference rates</subject>
+  <Sender>
+    <name>European Central Bank</name>
+  </Sender>
+  <Cube>
+    <Cube>
+      <Cube currency="USD" rate="1.3781"></Cube>
+      <Cube currency="EUR" rate="1" />
+      <Cube currency="JPY" rate="140.14"></Cube>
+      <Cube currency="BGN" rate="1.9558"></Cube>
+      <Cube currency="CZK" rate="27.392"></Cube>
+      <Cube currency="DKK" rate="7.4640"></Cube>
+      <Cube currency="GBP" rate="0.81725"></Cube>
+      <Cube currency="HUF" rate="303.98"></Cube>
+      <Cube currency="LTL" rate="3.4528"></Cube>
+      <Cube currency="PLN" rate="4.1823"></Cube>
+      <Cube currency="RON" rate="4.4298"></Cube>
+      <Cube currency="SEK" rate="9.0189"></Cube>
+      <Cube currency="CHF" rate="1.2186"></Cube>
+      <Cube currency="NOK" rate="8.1370"></Cube>
+      <Cube currency="HRK" rate="7.5863"></Cube>
+      <Cube currency="RUB" rate="48.5270"></Cube>
+      <Cube currency="TRY" rate="2.8662"></Cube>
+      <Cube currency="AUD" rate="1.4714"></Cube>
+      <Cube currency="BRL" rate="3.0506"></Cube>
+      <Cube currency="CAD" rate="1.4925"></Cube>
+      <Cube currency="CNY" rate="8.5821"></Cube>
+      <Cube currency="HKD" rate="10.6826"></Cube>
+      <Cube currency="IDR" rate="15841.14"></Cube>
+      <Cube currency="ILS" rate="4.7598"></Cube>
+      <Cube currency="INR" rate="82.7205"></Cube>
+      <Cube currency="KRW" rate="1413.41"></Cube>
+      <Cube currency="MXN" rate="17.8653"></Cube>
+      <Cube currency="MYR" rate="4.4492"></Cube>
+      <Cube currency="NZD" rate="1.5957"></Cube>
+      <Cube currency="PHP" rate="60.161"></Cube>
+      <Cube currency="SGD" rate="1.7215"></Cube>
+      <Cube currency="THB" rate="44.934"></Cube>
+      <Cube currency="ZAR" rate="14.2775"></Cube>
+    </Cube>
+  </Cube>
+</Envelope>
