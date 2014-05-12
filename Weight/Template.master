@@ -15,6 +15,7 @@
     <form id="form1" runat="server">
     <div>
         <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+        <a href="Default.aspx"><img id="logo" alt="logo.png" src="Images/logo.png" /></a>            
             <nav>
                 <ul id="menu">
                     <li><a href="Default.aspx">Home</a></li>
@@ -27,6 +28,10 @@
         <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
             
         </asp:ContentPlaceHolder>
+        <div id="footer">
+            <div class="valign-center text-center">&copy deanparrish.com</div>
+        </div>
+        
     </div>
     </form>
 </body>
