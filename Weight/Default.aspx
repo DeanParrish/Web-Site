@@ -19,9 +19,6 @@
                 <img src="Images/learn-computer-programming.png" />
             </div>
         </div>
-        
-        
-
     </div>
         
 </asp:Content>

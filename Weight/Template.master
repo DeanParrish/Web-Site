@@ -13,26 +13,30 @@
 </head>
 <body>
     <form id="form1" runat="server">
-    <div>
-        <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
-        <a href="Default.aspx"><img id="logo" alt="logo.png" src="Images/logo.png" /></a>            
+    <div id="wrapper">
+        <div id="menu">
+            <a href="Default.aspx"><img id="logo" alt="logo.png" src="Images/logo.png" /></a>            
             <nav>
-                <ul id="menu">
+                <ul>
                     <li><a href="Default.aspx">Home</a></li>
+                    <li class="slash">/</li>
                     <li><a href="About.aspx">About</a></li>
+                    <li class="slash">/</li>
                     <li><a href="Projects.aspx">Projects</a></li>
+                    <li class="slash">/</li>
                     <li><a href="Contact.aspx">Contact</a></li>
                 </ul>
             </nav>
-        </asp:ContentPlaceHolder>
-        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
-            
-        </asp:ContentPlaceHolder>
-        <div id="footer">
-            <div class="valign-center text-center">&copy deanparrish.com</div>
-        </div>
-        
+         </div>
+
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">           
+        </asp:ContentPlaceHolder>    
     </div>
+        
     </form>
 </body>
+    <div id="footer">
+            <div id="copy">&copy deanparrish.com</div>
+            <div id="btnBackToTop"><a href="#menu">&#8657 Back to Top</a></div>
+        </div>   
 </html>
