@@ -2,3 +2,17 @@
 {
     max-width: 100%;
 }
+#body{
+    font-family: Gadugi;
+    font-size: 12px;
+}
+.heading{
+    font-family: Impact;
+    font-size: 30px;
+}
+.float-right{
+    float:right;
+}
+.text-align-right{
+    text-align: right;
+}

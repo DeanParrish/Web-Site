@@ -7,36 +7,39 @@
     <title></title>
     <asp:ContentPlaceHolder id="head" runat="server">        
     </asp:ContentPlaceHolder>
-    <asp:ContentPlaceHolder ID="stylesheet" runat="server">
-        <link rel="stylesheet" type="text/css" href="Styles/MainStyle.css" /> 
-    </asp:ContentPlaceHolder>
+    <link rel="stylesheet" type="text/css" href="Styles/MainStyle.css" />
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+    <script>
+    //clone jQuery nav ul to #menu-button
+    </script>
 </head>
 <body>
     <form id="form1" runat="server">
     <div id="wrapper">
         <div id="menu">
-            <a href="Default.aspx"><img id="logo" alt="logo.png" src="Images/logo.png" /></a>            
+                   <a id="logo" href="Default.aspx">.deanparrish</a>
             <nav>
-                <ul>
+                <div id="menu-button">Menu &#x25BC</div>
+                <ul>                 
                     <li><a href="Default.aspx">Home</a></li>
-                    <li class="slash">/</li>
+                    <li class="slash">|</li>
                     <li><a href="About.aspx">About</a></li>
-                    <li class="slash">/</li>
-                    <li><a href="Projects.aspx">Projects</a></li>
-                    <li class="slash">/</li>
-                    <li><a href="Contact.aspx">Contact</a></li>
+                    <li class="slash">|</li>
+                    <li><a href="Projects.aspx">Projects</a></li>                   
                 </ul>
             </nav>
          </div>
 
-        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">           
-        </asp:ContentPlaceHolder>    
+        <asp:ContentPlaceHolder id="maincontent" runat="server">           
+        </asp:ContentPlaceHolder> 
+        
+        <div id="footer">
+            <div id="copy">&copy 2014 deanparrish.com</div>
+            <div id="btnBackToTop"><a href="#menu">&#8657 Back to Top</a></div>
+            <a id="contactme" href="mailto:parrish.de@gmail.com">Contact Me</a>
+        </div>    
     </div>
         
     </form>
-</body>
-    <div id="footer">
-            <div id="copy">&copy deanparrish.com</div>
-            <div id="btnBackToTop"><a href="#menu">&#8657 Back to Top</a></div>
-        </div>   
+</body>  
 </html>
