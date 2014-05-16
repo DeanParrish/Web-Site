@@ -4,14 +4,19 @@
     width: 100%;
     height: 100%;
     margin: 0;
-
+    padding: 0;
 }
 #wrapper{
     min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    overflow: auto;
 }
 #page
 {
+    height: 100%;
     max-width: 50%;
+    width: 50%;
     background-color: rgba(255, 255, 255, 0.3);
     display: inline-block;
     margin-top: 2%;
@@ -89,8 +94,8 @@ div#menu-button{
 /****START FOOTER****/
 #footer
 {
-    position: static;
-    display:compact;
+    position: relative;
+    clear:both;
     background-color: #6C6C6C;
     height: 60px;
     width: 100%;
@@ -102,7 +107,7 @@ div#menu-button{
     text-decoration: none;
     font-family: Gabriola;
     font-size: 25px;
-    line-height: 15px;;
+    line-height: 15px;
     
 }
 #btnBackToTop a:hover{
@@ -128,7 +133,9 @@ div#menu-button{
 #contactme:hover{
     font-weight: bold;
 }
+/****MEDIA QUERY****/
 @media all and (max-width: 560px){
+    /****PAGE****/
 #page
 {
     max-width: 100%;
@@ -146,6 +153,7 @@ div#menu-button{
     padding-top: 3%;
     min-width: 200px;
 }
+/****Navigation button/bar****/
 nav{
     font-size:15px;
 }
@@ -160,9 +168,42 @@ div#menu-button{
     color: white;
     margin-top: 2%;
     float: right;
+    font-family: Impact;
+    font-size: 15px;
+    padding: 0;
+    text-align: right;
 }
 div#menu-button:hover{
-    background-color: #B2B2B2;
     color: #F79494;
+}
+div#menu-button ul{
+    display: none;
+    background-color: #6C6C6C;
+    list-style: none;
+    text-decoration: none;
+    margin: 0;
+    padding: 5px;
+    text-align: left;
+}
+div#menu-button ul li{
+    border-bottom: solid;
+    border-color: white;
+    padding-top: 5px;
+    padding-bottom: 0;
+}
+
+div#menu-button ul li:hover{
+    border-color: #F79494;
+}
+div#menu-button ul li a{
+    font-size: 15px;
+    color: white;
+    text-decoration:none;
+    text-align: center;
+    font-size: 15px;
+}
+/***FOOTER****/
+#footer div, #footer a{
+    font-size: 20px;
 }
 }

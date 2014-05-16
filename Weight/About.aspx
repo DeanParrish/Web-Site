@@ -2,7 +2,7 @@
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
 </asp:Content>
-<asp:Content ID="Content3" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
+<asp:Content ID="Content3" ContentPlaceHolderID="maincontent" Runat="Server">
     <div id="page">
         I am an aspiriing software developer. I graduated in December 2013 from <a href="http://augustatech.edu">Augusta Technical College</a>.
         While I attended, I studied:
