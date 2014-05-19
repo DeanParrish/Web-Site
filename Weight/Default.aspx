@@ -6,7 +6,6 @@
     <script type="text/javascript" src="http://malsup.github.com/jquery.cycle2.js"></script>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="maincontent" Runat="Server">
-    <div id="page">
         <div id="body">
             <div class="heading text-align-right">Welcome!</div>
             <p>
@@ -18,7 +17,6 @@
                 <img src="Images/learn-computer-programming.png" />
             </div>
         </div>
-    </div>
         
 </asp:Content>
 

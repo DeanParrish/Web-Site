@@ -55,8 +55,14 @@ public partial class Projects : System.Web.UI.Page
     }
     protected void btnSubmit_Click(object sender, EventArgs e)
     {
-        decimal amt;
-        decimal.TryParse(txtAmount.Text, out amt);
-        lblCCResult.Text = xx.Convert(amt, ddlFromCurrency.Text, ddlToCurrency.Text).ToString();
+
+        if (IsValid)
+        {
+            decimal amt;
+            decimal.TryParse(txtAmount.Text, out amt);
+            lblCCResult.Text = xx.Convert(amt, ddlFromCurrency.Text, ddlToCurrency.Text).ToString() + ddlToCurrency.Text;
+        }
+            
     }
+        
 }

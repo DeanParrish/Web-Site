@@ -9,17 +9,7 @@
     </asp:ContentPlaceHolder>
     <link rel="stylesheet" type="text/css" href="Styles/MainStyle.css" />
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
-    <script>
-        //clone jQuery nav ul to #menu-button
-        $(document).ready(function(){
-            $('#menu-button').hover(function(){
-                $(this).find('ul').stop().slideToggle(200);
-
-
-                
-        })
-        });
-    </script>
+    <script type="text/javascript" src="Scripts/main.js"></script>
 </head>
 <body>
     <form id="form1" runat="server">
@@ -27,11 +17,6 @@
         <div id="menu">
                    <a id="logo" href="Default.aspx">.deanparrish</a>
             <div id="menu-button">☰
-                    <ul>                 
-                        <li><a href="Default.aspx">Home</a></li>
-                        <li><a href="About.aspx">About</a></li>
-                        <li><a href="Projects.aspx">Projects</a></li>                   
-                    </ul>
                 </div>
             <nav>
                 <ul>                 
@@ -43,10 +28,11 @@
                 </ul>
             </nav>
          </div>
-
+        <div id="page">
         <asp:ContentPlaceHolder id="maincontent" runat="server">           
         </asp:ContentPlaceHolder> 
-        
+        </div>
+
         <div id="footer">
             <div id="copy">&copy 2014 deanparrish.com</div>
             <div id="btnBackToTop"><a href="#menu">&#8657 Back to Top</a></div>
