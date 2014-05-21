@@ -1,0 +1,9 @@
+﻿#page > div > div.codeSnippet {
+    display: none;
+    background-color: #D8D8D8;
+}
+#page > div > a.showCode{
+    text-decoration: none;
+    color: #0000CC;
+
+}
