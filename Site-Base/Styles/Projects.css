@@ -1,0 +1,11 @@
+﻿#page > div > div.codeSnippet {
+    display: none;
+    word-wrap: break-word;
+}
+#page > div > a.showCode {
+    text-decoration: none;
+    color: #0000CC;
+}
+.snippetDesc{
+
+}
