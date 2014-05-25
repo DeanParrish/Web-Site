@@ -1,4 +1,10 @@
-﻿html, body{
+﻿*
+{
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
     min-height: 100%;
     width: 100%;
     height: 100%;
@@ -7,17 +13,16 @@
 }
 #wrapper{
     min-height: 100%;
-    height: auto !important;
     height: 100%;
 }
 #page
 {
-    max-width: 50%;
     width: 80%;
+    background-color: #FFFFFF;
     min-width: 80%;
     display: inline-block;
-    border-left: solid #F5F5F5 1px;
-    border-right: solid #F5F5F5 1px;
+    border-left: solid #D8D8D8 1px;
+    border-right: solid #D8D8D8 1px;
     margin-top: 2%;
     margin-left: 10%;
     margin-right: 10%;
@@ -28,41 +33,42 @@
     padding-top: 3%;
 }
 /****START NAVBAR****/
+#menu
+{
+    min-width: 200px;
+}
 nav{
-    font-size: 25px;
     width: 100%;
-    height: 40px;
-    background-color: #6C6C6C;
+    height: 20px;
+    background-color: #FFFFFF;
     text-align: center;
-    margin: 0;
-    padding: 0;
+    margin-top: 10px;
+    padding-bottom: 10px;
     
 }
 nav ul{
     list-style: none;
-    margin: 0;
-    padding: 0;
     display: inline-block;
-    font-family: Impact;
+    font-family: "Montserrat";
+    font-size: 12px;
+    float: right;
+    margin-right: 5%;
 }
 nav ul li{
     float:left;
     display: inline;
-    padding-left: 10px;
-    padding-right: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 nav ul li a{
     display: inline-block;
     text-decoration: none;
-    padding: 5px 5px 0px 5px;
     text-align: center;
-    color: #FFFFFF;
+    color: #424242;
 }
-nav ul li a:hover{
-    color: #F79494;
-}
-nav ul li:not(.slash):hover{
-    border-bottom: solid #F79494 3px;
+
+nav ul li:hover{
+    border-bottom: solid #424242 1px;
 }
 div#menu-button{
     display: none;
@@ -78,56 +84,33 @@ div#menu-button{
     margin-left: 5%;
     display: inline-block;
     text-decoration: none;
-    color: #FFFFFF;
-    font-family: Georgia;
-    font-size: 30px;
+    color: #424242;
+    font-family: "Montserrat";
+    font-size: 19px;
     
-}
-#logo:hover{
-    background: -webkit-linear-gradient(#FFFFFF, #F79494);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
 }
 
 /****START FOOTER****/
 #footer
 {
-    font-family: cursive;
     position: relative;
     clear:both;
-    background-color: #6C6C6C;
-    height: 60px;
+    background-color: #FFFFFF;
     width: 100%;
 }
-#btnBackToTop a{
-    text-decoration: none;
-    color: #FFFFFF;
-    float: right;
-    text-decoration: none;
-    font-size: 25px;
-    line-height: 15px;
-    
-}
-#btnBackToTop a:hover{
-    font-weight: bold;
-}
-#copy{
-    color: #FFFFFF;
+#sociallinks
+{
     text-align: center;
-    text-decoration: none;
-    font-size: 25px;
-    line-height: 40px;
-   
 }
-#contactme{
-    color: #FFFFFF;
-    text-decoration: none;
-    font-size: 25px;
-    float: left;
-    line-height: 15px;
+#footer i
+{
+    color: #D9D9D9;
+    margin-left: 10px;
+    font-size: 22px;
 }
-#contactme:hover{
-    font-weight: bold;
+#footer i:hover
+{
+    color: #424242
 }
 /****MEDIA QUERY****/
 @media all and (max-width: 560px){
@@ -135,18 +118,11 @@ div#menu-button{
 #page
 {
     max-width: 100%;
-<<<<<<< HEAD:Weight/Styles/MainStyle.css
     width: 100%;
-    background-color: rgba(255, 255, 255, 0.3);
-=======
     min-width: 200px;
-    width: 100%;
->>>>>>> fb05b734153434b31c9157d4944a683a02c294ca:Site-Base/Styles/MainStyle.css
     display: inline-block;
-    margin-top: 2%;
     margin-left: 0;
     margin-right: 0;
-    margin-bottom: 2%;
     padding-left: 1%;
     padding-right: 1%;
     padding-bottom: 2%;
@@ -164,52 +140,46 @@ nav ul{
 }
 div#menu-button{
     display: inline;
-    color: white;
+    color: #424242;
     margin-top: 2%;
     float: right;
-    font-family: Impact;
+    font-family: "Montserrat";
     font-size: 15px;
     padding: 0;
     text-align: right;
 }
 div#menu-button:hover{
-    color: #F79494;
+    color: #D9D9D9;
 }
 div#menu-button ul{
     display: none;
-    background-color: #6C6C6C;
+    background-color: #FFFFFF;
     list-style: none;
     text-decoration: none;
     margin: 0;
-    padding: 5px;
     text-align: left;
 }
-div#menu-button ul li{
-    border-bottom: solid;
-    border-color: white;
-    padding-top: 5px;
-    padding-bottom: 0;
-}
-
-div#menu-button ul li:hover{
-    border-color: #F79494;
+div#menu-button ul li a:hover{
+    border-bottom: solid #424242 1px;
 }
 div#menu-button ul li a{
     font-size: 15px;
-    color: white;
+    color: #424242;
     text-decoration:none;
     text-align: center;
-    font-size: 15px;
+    font-size: 12px;
 }
 /***FOOTER****/
 #footer div, #footer a{
-    font-size: 20px;
+    font-size: 10px;
 }
 }
+/****END QUERY****/
+
 /*PAGE CLASSES*/
 .section{
     width: 100%;
-    border-bottom: solid #F5F5F5 1px;
+    border-bottom: solid #D8D8D8 1px;
     padding-bottom: 3%;
 }
 .error{

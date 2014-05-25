@@ -6,7 +6,7 @@
     <script type="text/javascript" src="http://malsup.github.com/jquery.cycle2.js"></script>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="maincontent" Runat="Server">
-        <div id="body">
+        <div class="section">
             <div class="heading text-align-right">Welcome!</div>
             <p>
                 This site is designed by myself to showcase my talents. On this site you will find various 
