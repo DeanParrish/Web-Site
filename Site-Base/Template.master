@@ -25,9 +25,9 @@
                 </div>
             <nav>
                 <ul>                 
-                    <li><a class="navactive" href="Default.aspx">Home</a></li>
-                    <li><a href="About.aspx">About</a></li>
-                    <li><a href="Projects.aspx">Projects</a></li>                   
+                    <li><a href="/Home.aspx">Home</a></li>
+                    <li><a href="/About.aspx">About</a></li>
+                    <li><a href="/Projects.aspx">Projects</a></li>                   
                 </ul>
             </nav>
          </div>

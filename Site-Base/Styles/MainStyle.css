@@ -185,7 +185,7 @@ div#menu-button ul li a{
 .error{
     color: #FF0000;
 }
-.navactive
+.activenav
 {
     border-bottom: solid #424242 1px;
 }

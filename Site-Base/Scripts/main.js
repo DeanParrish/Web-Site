@@ -3,15 +3,14 @@
 $(document).ready(function () {
     //clone jQuery nav ul to #menu-button && remove slash
     $("nav ul").clone().appendTo("#menu-button");
-    $('nav ul li a[href^="/' + location.pathname.split("/")[1] + '"]').addClass('navactive');
-//    $("nav ul li a").click(function () {
-//        alert("hit");
-//        $("nav ul li a").each(function () {
-//            $(this).removeClass("navactive");
-//        });
-
-//        $(this).addClass("navactive");
-//    });
+    $("nav ul li a").each(function () {
+        if ($(this).attr("href") === location.pathname) {
+            $(this).addClass("activenav");
+        }
+    });
+    
+    $("nav ul li a").click(function () {
+    });
 
 
 
