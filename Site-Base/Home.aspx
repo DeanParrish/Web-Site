@@ -13,7 +13,11 @@
             </div>
             <div class="heading"><b>About Me</b></div>
             <p>
-                I'm an aspiring developer I'm an aspiring developer I'm an aspiring developer I'm an aspiring developer  I'm an aspiring developer I'm an aspiring developer             
+                I'm an aspiring developer who has interests in the Microsoft technology stack, simple designs, and learning new technologies. 
+                And football.             
+            </p>
+            <p>
+                
             </p>
             
         </div>
