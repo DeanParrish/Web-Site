@@ -9,7 +9,7 @@
     </asp:ContentPlaceHolder>
     <link rel="stylesheet" type="text/css" href="Styles/MainStyle.css" />
     <!-- Google Fonts website: https://www.google.com/fonts-->
-    <link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'/>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Montserrat' rel='stylesheet' type='text/css'>
     <!-- Font Awesome 4.1.0 website: http://fortawesome.github.io/Font-Awesome/-->
     <link href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet"/>
 
@@ -25,9 +25,9 @@
                 </div>
             <nav>
                 <ul>                 
-                    <li><a href="/Home.aspx">Home</a></li>
-                    <li><a href="/About.aspx">About</a></li>
-                    <li><a href="/Projects.aspx">Projects</a></li>                   
+                    <li><a href="/Site-Base/Home.aspx">Home</a></li>
+                    <li><a href="/Site-Base/About.aspx">About</a></li>
+                    <li><a href="/Site-Base/Projects.aspx">Projects</a></li>                   
                 </ul>
             </nav>
          </div>
@@ -38,9 +38,9 @@
 
         <div id="footer">
             <div id="sociallinks">
-                <a href="mailto:parrish.de@gmail.com"><i class="fa fa-envelope"></i></a>
-                <a href="https://twitter.com/parrish_de"><i class="fa fa-twitter"></i></a>
-                <a href="http://www.linkedin.com/pub/dean-parrish/77/817/926"><i class="fa fa-linkedin-square"></i></a>
+                <a href="mailto:parrish.de@gmail.com"><i title="E-Mail" class="fa fa-envelope"></i></a>
+                <a href="https://twitter.com/parrish_de"><i title="Twitter" class="fa fa-twitter"></i></a>
+                <a href="http://www.linkedin.com/pub/dean-parrish/77/817/926"><i title="LinkedIn" class="fa fa-linkedin-square"></i></a>
             </div>
         </div>    
     </div>

@@ -3,16 +3,29 @@
     max-width: 100%;
 }
 #body{
-    font-family: Gadugi;
     font-size: 12px;
 }
+#twitter
+{
+    width: 300px;
+    float: right;
+    margin: 0px 20px 0px 20px;
+}
+#twitter-widget-0
+{
+    height: 200px;
+}
 .heading{
-    font-family: Impact;
     font-size: 30px;
+    margin-bottom: 15px;
 }
 .float-right{
     float:right;
 }
 .text-align-right{
     text-align: right;
+}
+.section
+{
+    min-height: 300px;
 }

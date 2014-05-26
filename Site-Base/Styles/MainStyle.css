@@ -17,6 +17,7 @@ html, body{
 }
 #page
 {
+    font-family: 'Open Sans Condensed', sans-serif;
     width: 80%;
     background-color: #FFFFFF;
     min-width: 80%;
@@ -36,6 +37,11 @@ html, body{
 #menu
 {
     min-width: 200px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 101;
+    background-color: #FFFFFF;
 }
 nav{
     width: 100%;
@@ -87,16 +93,19 @@ div#menu-button{
     color: #424242;
     font-family: "Montserrat";
     font-size: 19px;
-    
+    margin-top: 4px;
 }
 
 /****START FOOTER****/
 #footer
 {
-    position: relative;
+    position: fixed;
+    bottom: 0px;
+    z-index: 100;
     clear:both;
     background-color: #FFFFFF;
     width: 100%;
+    padding-top: 3px;
 }
 #sociallinks
 {
@@ -181,6 +190,7 @@ div#menu-button ul li a{
     width: 100%;
     border-bottom: solid #D8D8D8 1px;
     padding-bottom: 3%;
+    padding-top: 30px;
 }
 .error{
     color: #FF0000;
