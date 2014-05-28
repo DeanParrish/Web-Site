@@ -28,9 +28,9 @@
                 </div>
             <nav>
                 <ul>                 
-                    <li><a href="/Site-Base/Home.aspx">Home</a></li>
-                    <li><a href="/Site-Base/Projects.aspx">Projects</a></li>  
-                    <li><a href="/Site-Base/Contact.aspx">Contact</a></li>                 
+                    <li><a href="/Home.aspx">Home</a></li>
+                    <li><a href="/Projects.aspx">Projects</a></li>  
+                    <li><a href="/Contact.aspx">Contact</a></li>                 
                 </ul>
             </nav>
          </div>

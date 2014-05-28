@@ -209,10 +209,15 @@ div#menu-button ul li a{
 .heading{
     font-size: 30px;
     margin-bottom: 15px;
+    font-weight: bold;
 }
 .link
 {
     text-decoration: none;
     color: #4099FF;
 }
+.roundelement{
+    border-radius: 10px;
+}
+
 

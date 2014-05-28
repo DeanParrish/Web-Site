@@ -14,7 +14,7 @@
             <div id="aboutmeimg">
                 <img src="Images/me.jpg" alt="Pic of myself" />
             </div>
-            <div class="heading"><b>About Me</b></div>
+            <div class="heading">About Me</div>
             <p>
                 I'm an aspiring developer who has interests in the Microsoft technology stack, simple designs, and learning new technologies. 
                 And football.             

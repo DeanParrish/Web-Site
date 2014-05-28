@@ -6,39 +6,39 @@
   </Sender>
   <Cube>
     <Cube>
-      <Cube currency="USD" rate="1.3638"></Cube>
+      <Cube currency="USD" rate="1.3608"></Cube>
       <Cube currency="EUR" rate="1" />
-      <Cube currency="JPY" rate="139.01"></Cube>
+      <Cube currency="JPY" rate="138.73"></Cube>
       <Cube currency="BGN" rate="1.9558"></Cube>
-      <Cube currency="CZK" rate="27.433"></Cube>
-      <Cube currency="DKK" rate="7.4634"></Cube>
-      <Cube currency="GBP" rate="0.81100"></Cube>
-      <Cube currency="HUF" rate="303.58"></Cube>
+      <Cube currency="CZK" rate="27.442"></Cube>
+      <Cube currency="DKK" rate="7.4631"></Cube>
+      <Cube currency="GBP" rate="0.81250"></Cube>
+      <Cube currency="HUF" rate="304.00"></Cube>
       <Cube currency="LTL" rate="3.4528"></Cube>
-      <Cube currency="PLN" rate="4.1637"></Cube>
-      <Cube currency="RON" rate="4.3961"></Cube>
-      <Cube currency="SEK" rate="9.0393"></Cube>
-      <Cube currency="CHF" rate="1.2221"></Cube>
-      <Cube currency="NOK" rate="8.1185"></Cube>
-      <Cube currency="HRK" rate="7.5940"></Cube>
-      <Cube currency="RUB" rate="46.9447"></Cube>
-      <Cube currency="TRY" rate="2.8640"></Cube>
-      <Cube currency="AUD" rate="1.4737"></Cube>
-      <Cube currency="BRL" rate="3.0422"></Cube>
-      <Cube currency="CAD" rate="1.4796"></Cube>
-      <Cube currency="CNY" rate="8.5228"></Cube>
-      <Cube currency="HKD" rate="10.5737"></Cube>
-      <Cube currency="IDR" rate="15813.84"></Cube>
-      <Cube currency="ILS" rate="4.7429"></Cube>
-      <Cube currency="INR" rate="80.2460"></Cube>
-      <Cube currency="KRW" rate="1396.31"></Cube>
-      <Cube currency="MXN" rate="17.5678"></Cube>
-      <Cube currency="MYR" rate="4.3901"></Cube>
-      <Cube currency="NZD" rate="1.5954"></Cube>
-      <Cube currency="PHP" rate="59.748"></Cube>
-      <Cube currency="SGD" rate="1.7135"></Cube>
-      <Cube currency="THB" rate="44.509"></Cube>
-      <Cube currency="ZAR" rate="14.2260"></Cube>
+      <Cube currency="PLN" rate="4.1564"></Cube>
+      <Cube currency="RON" rate="4.3955"></Cube>
+      <Cube currency="SEK" rate="9.0320"></Cube>
+      <Cube currency="CHF" rate="1.2225"></Cube>
+      <Cube currency="NOK" rate="8.1020"></Cube>
+      <Cube currency="HRK" rate="7.5960"></Cube>
+      <Cube currency="RUB" rate="46.9764"></Cube>
+      <Cube currency="TRY" rate="2.8616"></Cube>
+      <Cube currency="AUD" rate="1.4745"></Cube>
+      <Cube currency="BRL" rate="3.0569"></Cube>
+      <Cube currency="CAD" rate="1.4781"></Cube>
+      <Cube currency="CNY" rate="8.5122"></Cube>
+      <Cube currency="HKD" rate="10.5497"></Cube>
+      <Cube currency="IDR" rate="15836.99"></Cube>
+      <Cube currency="ILS" rate="4.7478"></Cube>
+      <Cube currency="INR" rate="80.1885"></Cube>
+      <Cube currency="KRW" rate="1390.72"></Cube>
+      <Cube currency="MXN" rate="17.5298"></Cube>
+      <Cube currency="MYR" rate="4.3861"></Cube>
+      <Cube currency="NZD" rate="1.6039"></Cube>
+      <Cube currency="PHP" rate="59.825"></Cube>
+      <Cube currency="SGD" rate="1.7096"></Cube>
+      <Cube currency="THB" rate="44.504"></Cube>
+      <Cube currency="ZAR" rate="14.2843"></Cube>
     </Cube>
   </Cube>
 </Envelope>
