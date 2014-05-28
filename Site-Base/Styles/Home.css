@@ -1,0 +1,64 @@
+﻿/****Sections****/
+p
+{
+    margin-bottom: 20px;
+}
+
+/****Element ID****/
+#body{
+    font-size: 12px;
+}
+
+/****TWITTER START****/
+#twitter
+{
+    max-width: 300px;
+    width: 100%;
+    float: right;
+    margin: 0px 20px 0px 20px;
+}
+#twitter-widget-0
+{
+    height: 400px;
+}
+#twitterbottom
+{
+    display: none;
+}
+/****TWITTER END ****/
+#aboutmeimg
+{
+    text-align: center;
+}
+#aboutmeimg img
+{
+    width: 100%;
+    max-width: 100px;
+    border-radius: 50%;
+}
+
+/****CLASSES****/
+.float-right{
+    float:right;
+}
+.text-align-right{
+    text-align: right;
+}
+.section
+{
+    min-height: 300px;
+}
+
+/****MEDIA QUERY****/
+@media all and (max-width: 560px)
+{
+    #twitter
+    {
+        margin: 0px 0px 30px 0px;
+    }
+    
+    #twitter iframe
+    {
+        height: 200px;
+    }   
+}

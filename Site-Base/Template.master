@@ -12,9 +12,12 @@
     <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Montserrat' rel='stylesheet' type='text/css'>
     <!-- Font Awesome 4.1.0 website: http://fortawesome.github.io/Font-Awesome/-->
     <link href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet"/>
+    <!-- NProgress -->
+    <script type="text/javascript" src="Styles/NProgress/nprogress.js"></script>
+    <link rel="Stylesheet" type="text/css" href="Styles/NProgress/nprogress.css" />
 
     <script type="text/javascript" src="Scripts/jQuery_1.11.1.js"></script>
-    <script type="text/javascript" src="Scripts/main.js"></script>
+    <script type="text/javascript" src="Scripts/Main.js"></script>
 </head>
 <body>
     <form id="mainform" runat="server">
@@ -26,8 +29,8 @@
             <nav>
                 <ul>                 
                     <li><a href="/Site-Base/Home.aspx">Home</a></li>
-                    <li><a href="/Site-Base/About.aspx">About</a></li>
-                    <li><a href="/Site-Base/Projects.aspx">Projects</a></li>                   
+                    <li><a href="/Site-Base/Projects.aspx">Projects</a></li>  
+                    <li><a href="/Site-Base/Contact.aspx">Contact</a></li>                 
                 </ul>
             </nav>
          </div>
@@ -42,7 +45,7 @@
                 <a href="https://twitter.com/parrish_de"><i title="Twitter" class="fa fa-twitter"></i></a>
                 <a href="http://www.linkedin.com/pub/dean-parrish/77/817/926"><i title="LinkedIn" class="fa fa-linkedin-square"></i></a>
             </div>
-        </div>    
+        </div>
     </div>
         
     </form>

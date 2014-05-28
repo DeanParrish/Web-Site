@@ -12,10 +12,6 @@
                 This site is designed by myself to showcase my talents. On this site you will find various 
                 projects that I have either completed in school or as a side project.               
             </p>
-            <div class="cycle-slideshow" id="slideshow">
-                <img src="Images/database.jpg" />
-                <img src="Images/learn-computer-programming.png" />
-            </div>
         </div>
         
 </asp:Content>

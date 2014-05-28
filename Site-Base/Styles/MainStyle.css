@@ -41,12 +41,11 @@ html, body{
     position: fixed;
     top: 0;
     z-index: 101;
-    background-color: #FFFFFF;
+    background-color: #F7F7F7;
 }
 nav{
     width: 100%;
     height: 20px;
-    background-color: #FFFFFF;
     text-align: center;
     margin-top: 10px;
     padding-bottom: 10px;
@@ -73,9 +72,7 @@ nav ul li a{
     color: #424242;
 }
 
-nav ul li:hover{
-    border-bottom: solid #424242 1px;
-}
+
 div#menu-button{
     display: none;
 }
@@ -103,7 +100,7 @@ div#menu-button{
     bottom: 0px;
     z-index: 100;
     clear:both;
-    background-color: #FFFFFF;
+    background-color: #F7F7F7;
     width: 100%;
     padding-top: 3px;
 }
@@ -121,6 +118,8 @@ div#menu-button{
 {
     color: #424242
 }
+
+
 /****MEDIA QUERY****/
 @media all and (max-width: 560px){
     /****PAGE****/
@@ -138,6 +137,10 @@ div#menu-button{
     padding-top: 3%;   
 }
 /****Navigation button/bar****/
+#menu
+{
+    position: absolute;
+}
 nav{
     font-size:15px;
 }
@@ -179,6 +182,10 @@ div#menu-button ul li a{
     font-size: 12px;
 }
 /***FOOTER****/
+#footer
+{
+    position: relative;
+}
 #footer div, #footer a{
     font-size: 10px;
 }
@@ -197,5 +204,15 @@ div#menu-button ul li a{
 }
 .activenav
 {
-    border-bottom: solid #424242 1px;
+    border-bottom: solid #4099FF 2px;
 }
+.heading{
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+.link
+{
+    text-decoration: none;
+    color: #4099FF;
+}
+
