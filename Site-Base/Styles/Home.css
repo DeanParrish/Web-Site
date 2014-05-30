@@ -54,7 +54,8 @@ p
 {
     #twitter
     {
-        margin: 0px 0px 30px 0px;
+        margin: 0;
+        margin-bottom: 30px;
     }
     
     #twitter iframe

@@ -9,7 +9,7 @@ using System.Xml.XPath;
 
 public partial class Projects : System.Web.UI.Page
 {
-    ClassLibrary1.CCLibrary xx = new ClassLibrary1.CCLibrary(50, HttpContext.Current.Server.MapPath("~/App_Data/ExchangeRates.xml"));
+    ClassLibrary1.CCLibrary CCLib = new ClassLibrary1.CCLibrary(50, HttpContext.Current.Server.MapPath("~/App_Data/ExchangeRates.xml"));
 
     protected void Page_Load(object sender, EventArgs e)
     {
@@ -17,7 +17,7 @@ public partial class Projects : System.Web.UI.Page
         {
             PopulateDDLFromXML(HttpContext.Current.Server.MapPath("~/App_Data/ExchangeRates.xml"), "currency", ddlFromCurrency);
             PopulateDDLFromXML(HttpContext.Current.Server.MapPath("~/App_Data/ExchangeRates.xml"), "currency", ddlToCurrency);
-            xx.UpdateFile(HttpContext.Current.Server.MapPath("~/App_Data/ExchangeRates.xml"), "http://www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml");
+            CCLib.UpdateFile(HttpContext.Current.Server.MapPath("~/App_Data/ExchangeRates.xml"), "http://www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml");
         }
        
     }
@@ -60,7 +60,9 @@ public partial class Projects : System.Web.UI.Page
         {
             decimal amt;
             decimal.TryParse(txtAmount.Text, out amt);
-            lblCCResult.Text = xx.Convert(amt, ddlFromCurrency.Text, ddlToCurrency.Text).ToString() + ddlToCurrency.Text;
+            lblCCResult.Text = txtAmount.Text + ddlFromCurrency.Text + " converts to " + 
+                CCLib.Convert(amt, ddlFromCurrency.Text, ddlToCurrency.Text).ToString() + ddlToCurrency.Text;
+            txtAmount.Text = "";
         }
             
     }

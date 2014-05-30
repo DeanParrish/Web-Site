@@ -210,6 +210,7 @@ div#menu-button ul li a{
     font-size: 30px;
     margin-bottom: 15px;
     font-weight: bold;
+    padding-top: 30px;
 }
 .link
 {
@@ -217,7 +218,20 @@ div#menu-button ul li a{
     color: #4099FF;
 }
 .roundelement{
-    border-radius: 10px;
+    border-radius: 5px;
+}
+.button{
+    color: #FFFFFF;
+    background-color: #FF9933;
+    border: solid #FFB870 2px;
+    padding: 5px 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+.button:hover
+{
+    background-color: #FFB870;
 }
 
 

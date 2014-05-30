@@ -8,7 +8,8 @@
     <asp:ContentPlaceHolder id="head" runat="server">        
     </asp:ContentPlaceHolder>
     <link rel="stylesheet" type="text/css" href="Styles/MainStyle.css" />
-
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
     <!-- Google Fonts website: https://www.google.com/fonts-->
     <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Montserrat' rel='stylesheet' type='text/css'>
 
@@ -27,7 +28,7 @@
     <div id="wrapper">
         <div id="menu">
                    <a id="logo" href="Pages/Default.aspx">Dean Parrish</a>
-            <div id="menu-button">☰
+            <div id="menu-button"><i title="Menu" class="fa fa-bars"></i>
                 </div>
             <nav>
                 <ul>                 

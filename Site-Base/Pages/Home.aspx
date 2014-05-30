@@ -12,7 +12,7 @@
                 <script type="text/javascript">                    !function (d, s, id) { var js, fjs = d.getElementsByTagName(s)[0], p = /^http:/.test(d.location) ? 'http' : 'https'; if (!d.getElementById(id)) { js = d.createElement(s); js.id = id; js.src = p + "://platform.twitter.com/widgets.js"; fjs.parentNode.insertBefore(js, fjs); } } (document, "script", "twitter-wjs");</script>
             </div>
             <div id="aboutmeimg">
-                <img src="../Images/me.jpg" alt="Pic of myself" />
+                <img src="../Images/me.jpg" alt="Pic of myself" title="Picture of me" />
             </div>
             <div class="heading">About Me</div>
             <p>
@@ -24,11 +24,11 @@
                 screen. I wouldn't have it any other way.
             </p>
             <p>
-                This site contains various <a class="link" href="Projects.aspx">projects</a> that I have completed during my time at Augusta Technical College, for clients, or
+                This site contains various <a class="link" href="Projects.aspx" title="Projects Page">projects</a> that I have completed during my time at Augusta Technical College, for clients, or
                  just playing around in my spare time. 
             </p>
             <p>
-                Feel free to <a class="link" href="Contact.aspx">contact</a> me about job opportunities, Web design help, or just to connect. Or to talk about football, I don't
+                Feel free to <a class="link" href="Contact.aspx" title="Contact Page">contact</a> me about job opportunities, Web design help, or just to connect. Or to talk about football, I don't
                 care if it is the middle of March, we can find something to talk about!
             </p>      
         </div>      

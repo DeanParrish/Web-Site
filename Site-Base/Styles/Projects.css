@@ -9,12 +9,6 @@
     text-decoration: none;
     color: #0000CC;
 }
-#maincontent_btnSubmit{
-    color: #FFFFFF;
-    background-color: #4099FF;
-    border: solid #FFFFFF 2px;
-
-}
 .snippetDesc{
 
 }
@@ -44,4 +38,12 @@
 }
 .line{
     line-height: 30px;
+}
+@media all and (max-width: 560px)
+{
+    .webAppWrapper
+    {
+        width: 100%;
+        margin: 0;
+    }
 }
