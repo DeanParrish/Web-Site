@@ -1,9 +1,9 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Template.master" AutoEventWireup="true" CodeFile="Projects.aspx.cs" Inherits="Projects" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="Server">
-    <link rel="stylesheet" type="text/css" href="Styles/Projects.css" />
-    <script type="text/javascript" src="Scripts/jQuery_1.11.1.js"></script>
-    <script type="text/javascript" src="Scripts/Projects.js"></script>
+    <link rel="stylesheet" type="text/css" href="../Styles/Projects.css" />
+    <script type="text/javascript" src="../Scripts/jQuery_1.11.1.js"></script>
+    <script type="text/javascript" src="../Scripts/Projects.js"></script>
     <script src="https://google-code-prettify.googlecode.com/svn/loader/run_prettify.js"></script>
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="maincontent" runat="Server">

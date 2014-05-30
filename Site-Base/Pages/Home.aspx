@@ -1,9 +1,9 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Template.master" AutoEventWireup="true" CodeFile="Home.aspx.cs" Inherits="Home" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="../Template.master" AutoEventWireup="true" CodeFile="Home.aspx.cs" Inherits="Home" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
-    <link rel="Stylesheet" type="text/css" href="Styles/Home.css" />
+    <link rel="Stylesheet" type="text/css" href="../Styles/Home.css" />
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
-    <script type="text/javascript" src="Scripts/Home.js"></script>
+    <script type="text/javascript" src="../Scripts/Home.js"></script>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="maincontent" Runat="Server">
     <div class="section">
@@ -12,7 +12,7 @@
                 <script type="text/javascript">                    !function (d, s, id) { var js, fjs = d.getElementsByTagName(s)[0], p = /^http:/.test(d.location) ? 'http' : 'https'; if (!d.getElementById(id)) { js = d.createElement(s); js.id = id; js.src = p + "://platform.twitter.com/widgets.js"; fjs.parentNode.insertBefore(js, fjs); } } (document, "script", "twitter-wjs");</script>
             </div>
             <div id="aboutmeimg">
-                <img src="Images/me.jpg" alt="Pic of myself" />
+                <img src="../Images/me.jpg" alt="Pic of myself" />
             </div>
             <div class="heading">About Me</div>
             <p>

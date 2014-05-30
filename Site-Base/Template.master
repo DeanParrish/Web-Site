@@ -8,29 +8,32 @@
     <asp:ContentPlaceHolder id="head" runat="server">        
     </asp:ContentPlaceHolder>
     <link rel="stylesheet" type="text/css" href="Styles/MainStyle.css" />
+
     <!-- Google Fonts website: https://www.google.com/fonts-->
     <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Montserrat' rel='stylesheet' type='text/css'>
+
     <!-- Font Awesome 4.1.0 website: http://fortawesome.github.io/Font-Awesome/-->
     <link href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet"/>
-    <!-- NProgress -->
-    <script type="text/javascript" src="Styles/NProgress/nprogress.js"></script>
-    <link rel="Stylesheet" type="text/css" href="Styles/NProgress/nprogress.css" />
 
-    <script type="text/javascript" src="Scripts/jQuery_1.11.1.js"></script>
-    <script type="text/javascript" src="Scripts/Main.js"></script>
+    <!-- NProgress -->
+    <script type="text/javascript" src="../Styles/NProgress/nprogress.js"></script>
+    <link rel="Stylesheet" type="text/css" href="../Styles/NProgress/nprogress.css" />
+
+    <script type="text/javascript" src="../Scripts/jQuery_1.11.1.js"></script>
+    <script type="text/javascript" src="../Scripts/Main.js"></script>
 </head>
 <body>
     <form id="mainform" runat="server">
     <div id="wrapper">
         <div id="menu">
-                   <a id="logo" href="Default.aspx">Dean Parrish</a>
+                   <a id="logo" href="Pages/Default.aspx">Dean Parrish</a>
             <div id="menu-button">☰
                 </div>
             <nav>
                 <ul>                 
-                    <li><a href="/Home.aspx">Home</a></li>
-                    <li><a href="/Projects.aspx">Projects</a></li>  
-                    <li><a href="/Contact.aspx">Contact</a></li>                 
+                    <li><a href="Home.aspx">Home</a></li>
+                    <li><a href="Projects.aspx">Projects</a></li>  
+                    <li><a href="Contact.aspx">Contact</a></li>                 
                 </ul>
             </nav>
          </div>
