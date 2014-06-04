@@ -14,11 +14,13 @@
     </div>
     <div class="section">
         <div class="imageThum">
-            <a href="ConvertCurrency.aspx"><span class="link imgText">Currency ConverstionDatabase Front EndDatabase Front End</span><img class="image" alt="ConvertCurrency" src="../Images/CurrencyConvertThumb.png" /></a>
+            <a href="ConvertCurrency.aspx"><span class="link imgText">Currency Converstion</span><img class="image" alt="ConvertCurrency" src="../Images/CurrencyConvertThumb.png" /></a>
         </div>
-    <div class="imageThum">
-        <a href="DBFrontEnd.aspx"><span class="link imgText">Database Front End</span><img class="image" alt="DBFrontEnd" src="../Images/DBFrontEndThumb.png"</a>
-    </div>
-
+        <div class="imageThum">
+            <a href="DBFrontEnd.aspx"><span class="link imgText">Database Front End</span><img class="image" alt="DBFrontEnd" src="../Images/DBFrontEndThumb.png" /></a>
+        </div>
+        <div class="imageThum">
+            <a href="Reservation/Request.aspx"><span class="link imgText">Reservation</span><img class="image" alt="Reservation" src="../Images/ReservationThumb.png" /></a>
+        </div>
     </div>
 </asp:Content>

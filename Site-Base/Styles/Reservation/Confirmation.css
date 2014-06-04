@@ -1,0 +1,25 @@
+﻿#buttons
+{
+    margin-top: 15px;
+    margin-bottom: 0;
+    clear: left;
+}
+#message
+{
+    color: #0000FF;
+    margin-top: 15px;
+}
+.text
+{
+    float: left;
+    width: 140px;
+    margin-top: 0;
+    margin-bottom: 5px;
+    clear: left;
+}
+
+.label
+{
+    margin-top: 9px;
+    margin-bottom: 8px;
+}
