@@ -20,7 +20,7 @@
             <a href="DBFrontEnd.aspx"><span class="link imgText">Database Front End</span><img class="image" alt="DBFrontEnd" src="../Images/DBFrontEndThumb.png" /></a>
         </div>
         <div class="imageThum">
-            <a href="Reservation/Request.aspx"><span class="link imgText">Reservation</span><img class="image" alt="Reservation" src="../Images/ReservationThumb.png" /></a>
+            <a href="Request.aspx"><span class="link imgText">Reservation</span><img class="image" alt="Reservation" src="../Images/ReservationThumb.png" /></a>
         </div>
     </div>
 </asp:Content>

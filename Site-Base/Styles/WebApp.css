@@ -26,11 +26,11 @@
 .line{
     line-height: 30px;
 }
-#page > div > div.codeSnippet {
+div.codeSnippet {
     display: none;
     word-wrap: break-word;
 }
-#page > div > a.showCode {
+a.showCode {
     text-decoration: none;
     color: #0000CC;
 }
