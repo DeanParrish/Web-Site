@@ -23,6 +23,7 @@ div#webapp{
     filter:alpha(opacity=40); /* For IE8 and earlier */
 }
 
+
 @media all and (max-width: 560px)
 {
     .imageThum{

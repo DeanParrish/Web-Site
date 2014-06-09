@@ -8,10 +8,14 @@
     <script type="text/javascript" src="https://google-code-prettify.googlecode.com/svn/loader/run_prettify.js"></script>
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="maincontent" runat="Server">
-    <div class="heading">
+    <span class="heading">
         Web Applications
-
-    </div>
+    </span><br />
+    <span class="pagedesc">
+        This page displays various projects that I have either completed in school or in free time. Click on each thumbnail to go to the
+        specific project page. Some are working web applications and some are descriptions of web applications. All projects have
+        <span class="highlight">code snippets</span> along with descriptions at the bottom of the page.
+    </span>
     <div class="section">
         <div class="imageThum">
             <a href="ConvertCurrency.aspx"><span class="link imgText">Currency Converstion</span><img class="image" alt="ConvertCurrency" src="../Images/CurrencyConvertThumb.png" /></a>

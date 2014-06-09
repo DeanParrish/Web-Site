@@ -233,6 +233,10 @@ div#menu-button ul li a{
 {
     background-color: #FFB870;
 }
+.highlight{
+    font-weight: bold;
+    color: #FF0000;
+}
 
 
 
