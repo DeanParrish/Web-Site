@@ -16,10 +16,6 @@
     <!-- Font Awesome 4.1.0 website: http://fortawesome.github.io/Font-Awesome/-->
     <link href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet"/>
 
-    <!-- NProgress -->
-    <script type="text/javascript" src="../Styles/NProgress/nprogress.js"></script>
-    <link rel="Stylesheet" type="text/css" href="../Styles/NProgress/nprogress.css" />
-
     <script type="text/javascript" src="../Scripts/jQuery_1.11.1.js"></script>
     <script type="text/javascript" src="../Scripts/Main.js"></script>
 </head>
@@ -48,6 +44,7 @@
                 <a href="mailto:parrish.de@gmail.com"><i title="E-Mail" class="fa fa-envelope"></i></a>
                 <a href="https://twitter.com/parrish_de"><i title="Twitter" class="fa fa-twitter"></i></a>
                 <a href="http://www.linkedin.com/pub/dean-parrish/77/817/926"><i title="LinkedIn" class="fa fa-linkedin-square"></i></a>
+                <a href="https://github.com/DeanParrish"><i title="GitHub" class="fa fa-git-square"></i> </a>
             </div>
         </div>
     </div>

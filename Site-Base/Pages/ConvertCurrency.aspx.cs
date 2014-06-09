@@ -14,22 +14,19 @@ using System.Threading.Tasks;
 
 public partial class CurrencyConversion : System.Web.UI.Page
 {
-    XDocument xmlDoc = XDocument.Load(HttpContext.Current.Server.MapPath("~/App_Data/ExchangeRates.xml"));
-    ClassLibrary1.CCLibrary xx = new ClassLibrary1.CCLibrary(50, HttpContext.Current.Server.MapPath("~/App_Data/ExchangeRates.xml"));
-    string[,] array = new string[,] { { "currency", "EUR", "rate", "1" }};
-    
+    ClassLibrary1.CCLibrary CCLib = new ClassLibrary1.CCLibrary(50, HttpContext.Current.Server.MapPath("~/App_Data/ExchangeRates.xml"));
 
     protected void Page_Load(object sender, EventArgs e)
     {
         if (!IsPostBack)
         {
-           // AppendElementXML(HttpContext.Current.Server.MapPath("~/App_Data/ExchangeRates.xml"), array);
-            
-            PopulateDDLFromXML(HttpContext.Current.Server.MapPath("~/App_Data/ExchangeRates.xml"), "currency", ddlCurrency1);
-            PopulateDDLFromXML(HttpContext.Current.Server.MapPath("~/App_Data/ExchangeRates.xml"), "currency", ddlCurrency2);
-            xx.UpdateFile(HttpContext.Current.Server.MapPath("~/App_Data/ExchangeRates.xml"), "http://www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml");
-        }  
+            PopulateDDLFromXML(HttpContext.Current.Server.MapPath("~/App_Data/ExchangeRates.xml"), "currency", ddlFromCurrency);
+            PopulateDDLFromXML(HttpContext.Current.Server.MapPath("~/App_Data/ExchangeRates.xml"), "currency", ddlToCurrency);
+            CCLib.UpdateFile(HttpContext.Current.Server.MapPath("~/App_Data/ExchangeRates.xml"), "http://www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml");
+        }
+
     }
+
     private void AppendElementXML(string path, string[,] arr)
     {
         XDocument xmlDoc = XDocument.Load(path);
@@ -47,12 +44,12 @@ public partial class CurrencyConversion : System.Web.UI.Page
         XDocument xmlDoc = XDocument.Load(doc);
         ClassLibrary1.XMLMethods xmlMTD = new ClassLibrary1.XMLMethods();
         xmlDoc = xmlMTD.RemoveAllNamespaces(xmlDoc.ToString());
-       
+
         var getAttributes = from att in xmlDoc.Descendants("Cube")
                             where att.HasAttributes
                             orderby att.Attribute(attribute).Value
                             select att.Attribute(attribute).Value;
-                            
+
 
         foreach (var item in getAttributes)
         {
@@ -63,16 +60,15 @@ public partial class CurrencyConversion : System.Web.UI.Page
     }
     protected void btnSubmit_Click(object sender, EventArgs e)
     {
-        try
+
+        if (IsValid)
         {
-            lblResult.Text = xx.Convert(decimal.Parse(txtAmount.Text), ddlCurrency1.Text, ddlCurrency2.Text).ToString();
-            
+            decimal amt;
+            decimal.TryParse(txtAmount.Text, out amt);
+            lblCCResult.Text = txtAmount.Text + ddlFromCurrency.Text + " converts to " +
+                CCLib.Convert(amt, ddlFromCurrency.Text, ddlToCurrency.Text).ToString() + ddlToCurrency.Text;
+            txtAmount.Text = "";
         }
-        catch (Exception ex)
-        {
-            lblResult.Text = "ERROR";
-            System.Diagnostics.Debug.WriteLine(ex);
-        }
-        
+
     }
 }

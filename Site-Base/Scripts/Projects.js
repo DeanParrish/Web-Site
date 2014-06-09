@@ -1,15 +1,9 @@
 ﻿/// <reference path="jQuery_1.11.1.js" />
 
 $(document).ready(function () {
-    $("a.showCode").click(function (e) {
-        var pageWidth = $("#page").css("min-width");
-        $(this).next().slideToggle(500);
-        if (pageWidth != "675px") {
-            $("#page").css("min-width", "675px");
-        }
-        else {
-            $("#page").css("min-width", "");
-        }
-
+    $("div.imageThum").hover(function () {
+        $(this).children().children("span").css("display", "block");
+    }, function () {
+        $(this).children().children("span").css("display", "none")
     });
 });

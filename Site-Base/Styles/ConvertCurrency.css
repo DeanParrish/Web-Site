@@ -1,0 +1,47 @@
+﻿.webAppWrapper{
+    text-align: center;
+    background-color: #4099FF;
+    border-radius: 20px;
+    color: #FFFFFF;
+    width: 60%;
+    margin-left: 20%;
+}
+.webAppHeading{
+    color: #FFFFFF;
+    font-size: 20px;
+    padding: 10px 0px 10px 0px;
+}
+.webAppDesc{
+    margin: 5px 0px 20px 0px;
+}
+.webAppDesc ul *{
+    list-style: none;
+}
+.linkProject{
+    font-weight: bolder;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.line{
+    line-height: 30px;
+}
+#page > div > div.codeSnippet {
+    display: none;
+    word-wrap: break-word;
+}
+#page > div > a.showCode {
+    text-decoration: none;
+    color: #0000CC;
+}
+.result *{
+    font-size: 20px;
+    font-weight: bold;
+}
+@media all and (max-width: 560px)
+{
+    .webAppWrapper
+    {
+        width: 100%;
+        margin: 0;
+    }
+}
