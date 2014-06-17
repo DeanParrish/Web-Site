@@ -1,0 +1,32 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" Inherits="site" CodeFile="site.master.cs" %>
+
+<!DOCTYPE HTML>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Customer Search</title>
+    <asp:ContentPlaceHolder id="heading" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="Styles/Main.css" rel="stylesheet" type="text/css" />
+    <link href="Styles/Main.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <form id="DBFrontForm" runat="server" autocomplete="off">
+    <div id="page">
+        <asp:ImageMap ID="imgMPAdd" runat="server" ImageUrl="Images/Add_Reg.jpg" 
+            Width="49.5%">
+            <asp:RectangleHotSpot HotSpotMode="Navigate" NavigateUrl="Add.aspx" 
+                Right="600" Top="40" />
+        </asp:ImageMap>
+        <asp:ImageMap ID="imgMPSearch" runat="server" ImageUrl="Images/Search_Reg.jpg" 
+            Width="49.6%">
+            <asp:RectangleHotSpot HotSpotMode="Navigate" NavigateUrl="Search.aspx" 
+                Right="600" Top="40" />
+        </asp:ImageMap>
+        <br />
+        <asp:ContentPlaceHolder ID="DBFrontMainContent" runat="server">
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+</body>
+</html>

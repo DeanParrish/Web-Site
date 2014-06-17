@@ -1,0 +1,6 @@
+C:\inetpub\wwwroot\Portfolio\Portfolio\bin\Portfolio.dll
+C:\inetpub\wwwroot\Portfolio\Portfolio\bin\Portfolio.pdb
+C:\inetpub\wwwroot\Portfolio\Portfolio\obj\Release\Portfolio.dll
+C:\inetpub\wwwroot\Portfolio\Portfolio\obj\Release\Portfolio.pdb
+C:\inetpub\wwwroot\Portfolio\Portfolio\bin\MoneyConversion.dll
+C:\inetpub\wwwroot\Portfolio\Portfolio\bin\MoneyConversion.pdb

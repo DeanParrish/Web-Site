@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<states>
+  <state name="Alabama" abbr="AL"></state>
+  <state name="Alaska" abbr="AK"></state>
+  <state name="Arizona" abbr="AZ"></state>
+  <state name="Arkansas" abbr="AR"></state>
+  <state name="California" abbr="CA"></state>
+  <state name="Colorado" abbr="CO"></state>
+  <state name="Connecticut" abbr="CT"></state>
+  <state name="Deleware" abbr="DE"></state>
+  <state name="Florida" abbr="FL"></state>
+  <state name="Georgia" abbr="GA"></state>
+  <state name="Hawaii" abbr="HI"></state>
+  <state name="Idaho" abbr="ID"></state>
+  <state name="Illinois" abbr="IL"></state>
+  <state name="Indiana" abbr="ID"></state>
+  <state name="Iowa" abbr="IA"></state>
+  <state name="Kansas" abbr="KS"></state>
+  <state name="Kentucky" abbr="KY"></state>
+  <state name="Louisana" abbr="LA"></state>
+  <state name="Maine" abbr="ME"></state>
+  <state name="Maryland" abbr="MD"></state>
+  <state name="Massachusetts" abbr="MA"></state>
+  <state name="Michigan" abbr="MI"></state>
+  <state name="Minnesota" abbr="MN"></state>
+  <state name="Mississippi" abbr="MS"></state>
+  <state name="Missouri" abbr="MO"></state>
+  <state name="Montana" abbr="MT"></state>
+  <state name="Nebraska" abbr="NE"></state>
+  <state name="Nevada" abbr="NV"></state>
+  <state name="New Hampshire" abbr="NH"></state>
+  <state name="New Jersey" abbr="NJ"></state>
+  <state name="New Mexico" abbr="NM"></state>
+  <state name="New York" abbr="NY"></state>
+  <state name="North Carolina" abbr="NC"></state>
+  <state name="North Dakota" abbr="ND"></state>
+  <state name="Ohio" abbr="OH"></state>
+  <state name="Oklahoma" abbr="OK"></state>
+  <state name="Oregon" abbr="OR"></state>
+  <state name="Pennsylvania" abbr="PA"></state>
+  <state name="Rhode Island" abbr="RI"></state>
+  <state name="South Carolina" abbr="SC"></state>
+  <state name="South Dakota" abbr="SD"></state>
+  <state name="Massachusetts" abbr="MA"></state>
+  <state name="Tennessee" abbr="TN"></state>
+  <state name="Texas" abbr="TX"></state>
+  <state name="Utah" abbr="UT"></state>
+  <state name="Vermont" abbr="VT"></state>
+  <state name="Virginia" abbr="VA"></state>
+  <state name="Washington" abbr="WA"></state>
+  <state name="West Virginia" abbr="WV"></state>
+  <state name="Wisconsin" abbr="WI"></state>
+  <state name="Wyoming" abbr="WY"></state>
+</states>

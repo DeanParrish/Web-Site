@@ -1,0 +1,40 @@
+﻿
+.submitButton
+{
+    width: 100px;
+    background-color: black;
+    color: white;
+    height: 30px; 
+}
+.resetButton
+{
+    width: 100px;
+    background-color: black;
+    color: white;
+    height: 30px; 
+    margin-left: 40px;   
+}
+#input input:focus, #input textarea:focus, #input select:focus
+{
+    background-color: Yellow;
+}
+.validator
+{
+    color: Red;
+    font-size: larger;
+}
+.correct
+{
+    color: Green;
+    font-size: larger;
+    width: 100%;
+    text-align: center;
+}
+.message
+{
+    text-align:center;
+}
+/*#addTable td
+{
+    padding-left: 15%;
+}*/

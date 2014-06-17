@@ -1,0 +1,19 @@
+﻿.validator
+{
+    color: Red;
+}
+
+.altGridView
+{
+    background-color:#CCCCCC;
+}
+.headGridView
+{
+    background-Color:Black;
+    color:White;
+    font-weight: bold;
+}
+.highlight
+{
+    background-color:Yellow;
+}

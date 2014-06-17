@@ -1,0 +1,7 @@
+C:\inetpub\wwwroot\Portfolio\Portfolio\obj\Debug\Portfolio.csprojResolveAssemblyReference.cache
+C:\inetpub\wwwroot\Portfolio\Portfolio\bin\Portfolio.dll
+C:\inetpub\wwwroot\Portfolio\Portfolio\bin\Portfolio.pdb
+C:\inetpub\wwwroot\Portfolio\Portfolio\bin\MoneyConversion.dll
+C:\inetpub\wwwroot\Portfolio\Portfolio\bin\MoneyConversion.pdb
+C:\inetpub\wwwroot\Portfolio\Portfolio\obj\Debug\Portfolio.dll
+C:\inetpub\wwwroot\Portfolio\Portfolio\obj\Debug\Portfolio.pdb
