@@ -9,7 +9,6 @@
 }
 .floatedright{
     float:right;
-    width: 40%;
     text-align: center;
 }
 
@@ -49,4 +48,15 @@ span#github i{
 }
 span#github i:hover{
     color: #D9D9D9;
+}
+
+@media all and (max-width: 560px)
+{
+    .floatedleft{    
+        width: 100%;
+    }
+    .floatedright p{
+        float: none;
+        max-width: 100%;
+    }   
 }
