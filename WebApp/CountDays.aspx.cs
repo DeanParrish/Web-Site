@@ -32,28 +32,73 @@ public partial class CountDays : System.Web.UI.Page
         {
             if (rdoAppConfig.SelectedValue == "EndYear")
             {
+                validreqEndDate.Enabled = false;
                 DateTime.TryParse(txtStartDate.Text, out start);
                 end = new DateTime(start.Year, 12, 31);
 
                 result = end.Subtract(start);
 
-
-                lblResult.Text = "There are " + result.Days.ToString() + " days between " + start.ToShortDateString() +
+                if (result.TotalDays > 1)
+                {
+                    lblResult.Text = "There are " + result.Days.ToString() + " days between " + start.ToShortDateString() +
                     " and " + end.ToShortDateString();
+                }
+                else if (result.TotalDays == 1)
+                {
+                    lblResult.Text = "There is " + result.Days.ToString() + " day between " + start.ToShortDateString() +
+                    " and " + end.ToShortDateString();
+                }
+                else if (result.TotalDays == 0)
+                {
+                    lblResult.Text = "That is today!";
+                }
+                else
+                {
+                    lblResult.Text = "There was an error in your request. Please try again later.";
+                }
+                
               
             }
             else if (rdoAppConfig.SelectedValue == "SpecifiedDate")
             {
+                validreqEndDate.Enabled = true;
                 DateTime.TryParse(txtStartDate.Text, out start);
                 DateTime.TryParse(txtEndDate.Text, out end);
 
                 result = end.Subtract(start);
 
-                lblResult.Text = "There are " + result.Days.ToString() + " days between " + start.ToShortDateString() +
+                if (result.TotalDays > 1)
+                {
+                    lblResult.Text = "There are " + result.Days.ToString() + " days between " + start.ToShortDateString() +
                     " and " + end.ToShortDateString();
+                }
+                else if (result.TotalDays == 1)
+                {
+                    lblResult.Text = "There is " + result.Days.ToString() + " day between " + start.ToShortDateString() +
+                    " and " + end.ToShortDateString();
+                }
+                else if (result.TotalDays == 0)
+                {
+                    lblResult.Text = "That is today!";
+                }
+                else
+                {
+                    lblResult.Text = "There was an error in your request. Please try again later.";
+                }
             }
 
             
+        }
+    }
+    protected void rdoAppConfig_SelectedIndexChanged(object sender, EventArgs e)
+    {
+        if (rdoAppConfig.SelectedValue == "EndYear")
+        {
+            validreqEndDate.Enabled = false;
+        }
+        else if (rdoAppConfig.SelectedValue == "SpecifiedDate")
+        {
+            validreqEndDate.Enabled = true;
         }
     }
 }

@@ -15,7 +15,7 @@
     <!-- Font Awesome 4.1.0 website: http://fortawesome.github.io/Font-Awesome/-->
     <link href="http://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet"/>
 
-    <script type="text/javascript" src="Scripts/jQuery_1.11.1.js"></script>
+    <!--<script type="text/javascript" src="Scripts/jQuery_1.11.1.js"></script>-->
     <script type="text/javascript" src="Scripts/Main.js"></script>
 </head>
 <body>
