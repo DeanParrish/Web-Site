@@ -32,7 +32,6 @@ public partial class CountDays : System.Web.UI.Page
         {
             if (rdoAppConfig.SelectedValue == "EndYear")
             {
-                validreqEndDate.Enabled = false;
                 DateTime.TryParse(txtStartDate.Text, out start);
                 end = new DateTime(start.Year, 12, 31);
 
@@ -61,7 +60,6 @@ public partial class CountDays : System.Web.UI.Page
             }
             else if (rdoAppConfig.SelectedValue == "SpecifiedDate")
             {
-                validreqEndDate.Enabled = true;
                 DateTime.TryParse(txtStartDate.Text, out start);
                 DateTime.TryParse(txtEndDate.Text, out end);
 
@@ -94,11 +92,15 @@ public partial class CountDays : System.Web.UI.Page
     {
         if (rdoAppConfig.SelectedValue == "EndYear")
         {
-            validreqEndDate.Enabled = false;
+            validReq_txtEndDate.Enabled = false;
+            validCompare_txtEndDate.Enabled = false;
+            validTypeCheck_txtEndDate.Enabled = false;
         }
         else if (rdoAppConfig.SelectedValue == "SpecifiedDate")
         {
-            validreqEndDate.Enabled = true;
+            validReq_txtEndDate.Enabled = true;
+            validCompare_txtEndDate.Enabled = true;
+            validTypeCheck_txtEndDate.Enabled = true;
         }
     }
 }

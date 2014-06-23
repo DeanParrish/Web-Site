@@ -25,5 +25,8 @@
         <div class="imageThum">
             <a href="Request.aspx"><span class="link imgText">Reservation</span><img class="image" alt="Reservation" src="Images/ReservationThumb.png" /></a>
         </div>
+        <div class="imageThum">
+            <a href="CountDays.aspx"><span class="link imgText">Day Counter</span><img class="image" alt="Day Counter" src="Images/DayCounterThumb.png" /></a>
+        </div>
     </div>
 </asp:Content>
