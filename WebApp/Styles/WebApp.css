@@ -38,6 +38,10 @@ a.showCode {
     font-size: 20px;
     font-weight: bold;
 }
+#maincontent_rdoAppConfig
+{
+    width:100%;
+}
 @media all and (max-width: 560px)
 {
     .webAppWrapper

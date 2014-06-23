@@ -1,9 +1,9 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="Template.master" AutoEventWireup="true" Inherits="CurrencyConversion" Codebehind="ConvertCurrency.aspx.cs" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
-    <link rel="stylesheet" type="text/css" href="../Styles/ConvertCurrency.css" />
-    <script type="text/javascript" src="../Scripts/jQuery_1.11.1.js"></script>
-    <script type="text/javascript" src="../Scripts/ProjectPage.js"></script>
+    <link rel="stylesheet" type="text/css" href="Styles/WebApp.css" />
+    <script type="text/javascript" src="Scripts/jQuery_1.11.1.js"></script>
+    <script type="text/javascript" src="Scripts/ProjectPage.js"></script>
     <script type="text/javascript" src="https://google-code-prettify.googlecode.com/svn/loader/run_prettify.js"></script>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="maincontent" Runat="Server">
