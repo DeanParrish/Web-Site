@@ -15,6 +15,9 @@ public partial class Default : System.Web.UI.Page
     {
         try
         {
+            //TRIM TextBox
+            txtSearch.Text.Trim();
+
             //GETS DDL SELECTION; Clears Select param; Gets Data from DB
             if (ddlSearch.SelectedValue.ToString() == "LName")
             {

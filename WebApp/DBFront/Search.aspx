@@ -92,7 +92,7 @@ Search by:
                 <asp:DetailsView ID="DetailsView1" runat="server" AutoGenerateRows="False" 
                     DataKeyNames="CustomerNum" DataSourceID="dtDataSource" Height="50px" 
                     Width="280px" CellPadding="4" ForeColor="#333333" 
-        GridLines="None">
+        GridLines="None" OnPageIndexChanging="DetailsView1_PageIndexChanging">
                     <AlternatingRowStyle BackColor="White" ForeColor="#284775" />
                     <CommandRowStyle BackColor="#E2DED6" Font-Bold="True" />
                     <EditRowStyle BackColor="#999999" />
@@ -262,8 +262,16 @@ Search by:
                                     Width="240px"></asp:TextBox>
                             </ItemTemplate>
                         </asp:TemplateField>
-                        <asp:CommandField ButtonType="Button" ShowDeleteButton="True" 
-                            ShowEditButton="True" ValidationGroup="Edit" />
+                        <asp:TemplateField ShowHeader="False">
+                            <EditItemTemplate>
+                                <asp:Button ID="Button1" runat="server" CausesValidation="True" CommandName="Update" OnClick="Button1_Click" Text="Update" />
+                                &nbsp;<asp:Button ID="Button2" runat="server" CausesValidation="False" CommandName="Cancel" Text="Cancel" />
+                            </EditItemTemplate>
+                            <ItemTemplate>
+                                <asp:Button ID="Button1" runat="server" CausesValidation="False" CommandName="Edit" Text="Edit" />
+                                &nbsp;<asp:Button ID="Button2" runat="server" CausesValidation="False" CommandName="Delete" Text="Delete" />
+                            </ItemTemplate>
+                        </asp:TemplateField>
                     </Fields>
                     <FooterStyle BackColor="#5D7B9D" Font-Bold="True" ForeColor="White" />
                     <HeaderStyle BackColor="#5D7B9D" Font-Bold="True" ForeColor="White" />
